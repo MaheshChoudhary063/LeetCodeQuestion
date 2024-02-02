@@ -9,7 +9,7 @@ public class ValidSoduko {
                 if (board[i][col] == num) return false;
             }
     
-            int sRow = row/3*3;
+            int sRow = row/3*3; 
             int sCol = col/3*3;
     
            for (int i = 0; i < 3; i++) {
